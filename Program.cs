@@ -30,7 +30,7 @@ namespace SCPFBot
             services = new ServiceCollection().BuildServiceProvider();
             client.Log += Log;
             await CommandRegiester();
-            await client.LoginAsync(TokenType.Bot, "MjM1ODUyMDQ2NDQ2NzU1ODQw.DTABfg.0CsKUEZG8_68Ll0I1cusHLAxXrA");
+            await client.LoginAsync(TokenType.Bot, "");
             await client.StartAsync();
 
 
