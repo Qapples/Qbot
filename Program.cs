@@ -39,6 +39,7 @@ namespace SCPFBot
         static void Main(string[] args)
         {
             //test
+            //suck test
             Console.WriteLine("Insert Key.");
             key = Console.ReadLine();
             new Program().Start().GetAwaiter().GetResult();
